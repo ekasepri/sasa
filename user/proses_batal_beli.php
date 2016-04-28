@@ -1,0 +1,1 @@
+<?php session_start(); unset($_SESSION['pembelian']); unset($_SESSION['total_harga']); header('location:index.php');?>
